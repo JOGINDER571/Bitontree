@@ -1,0 +1,33 @@
+.character-detail {
+  width: 100%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3rem auto;
+}
+.left-div {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.left-div img{
+  width: 50%;
+}
+.right-div {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blueviolet; */
+}
+
+@media screen and (max-width: 480px) {
+  .character-detail{
+    flex-direction: column;
+  }
+}
